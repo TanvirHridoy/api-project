@@ -1,0 +1,25 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Item API Title",
+        "description": "Item API description",
+        "version": "1.0.0"
+    },
+    "paths": {
+        "/api/items": {
+            "get": {
+                "tags": [
+                    "Items"
+                ],
+                "summary": "Get a list of items",
+                "description": "Returns a list of all items",
+                "operationId": "b270d2e71edec3bd50314bda261145d5",
+                "responses": {
+                    "200": {
+                        "description": "Successful operation"
+                    }
+                }
+            }
+        }
+    }
+}
